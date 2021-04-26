@@ -1,0 +1,1 @@
+requests = gmhsRequestScores(70, true);
