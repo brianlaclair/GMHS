@@ -1,11 +1,11 @@
 # GMHS
 an simple to setup and easy to use online High Score system for GameMaker
 
-### Whats needed?
+## Whats needed?
 - a web server that can run PHP scripts
 - GameMaker Studio 2
 
-### Setup
+## Setup
 **Server**
 - Place the files inside of /PHP into the directory of your choice on your server
 - Edit the "config.php" script to add your personal secret key
@@ -14,13 +14,14 @@ an simple to setup and easy to use online High Score system for GameMaker
 - Import the gmhs.gml file as a script into your project
 - Call the function gmhsConfig() function before using the other functions 
 Here's an example of how to use gmhsConfig()
+
 `gmhsConfig("www.example.com", "https://example.com/mygame/gmhs.php", "MyGame");`
 
-### Submitting Scores
+## Submitting Scores
 
 `gmhsSubmit("NAME", SCORE, "YOURSECRETKEY");`
 
-### Reading Scores
+## Reading Scores
 The following example will send a request to the server for the top 70 scores (if there are less than 70, it will return the amount it has). 
 
 `RequestScores = gmhsRequestScores(70, true);`
@@ -47,7 +48,7 @@ You can easily loop through these arrays to display your High Score list... here
     	draw_text(150, 15 * i, string(global.gmhsScores[i]));
     }
 
-### You can also view scores from the web!
+## You can also view scores from the web!
 Visit your GMHS installation, and browse to the gmhs.php file. Append ?aid=YOURAPPNAME and you'll see the top scores in your browser. This can be used for embedding scores on your game's website. 
 
 You can also add further attributes to the URL for sorting and expanding the number of scores shown. 
