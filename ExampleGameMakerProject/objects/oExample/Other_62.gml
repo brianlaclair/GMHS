@@ -6,6 +6,7 @@ if (async_load[? "id"] == submitr) {
 
 if (async_load[? "id"] == requests) {
 	
+	// Parses the HS list recieved
 	gmhsParseScores(async_load[? "result"]);
 
 }

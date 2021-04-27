@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
+    {"id":{"name":"oExample","path":"objects/oExample/oExample.yy",},"order":0,},
     {"id":{"name":"GMHS","path":"scripts/GMHS/GMHS.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
