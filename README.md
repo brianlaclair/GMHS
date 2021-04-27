@@ -12,7 +12,7 @@ an simple to setup and easy to use online High Score system for GameMaker
 
 **GameMaker**
 - Import the gmhs.gml file as a script into your project
-- Call the function gmhsConfig() function before using the other functions 
+- Call the gmhsConfig() function before using the other functions 
 Here's an example of how to use gmhsConfig()
 
 `gmhsConfig("www.example.com", "https://example.com/mygame/gmhs.php", "MyGame");`
