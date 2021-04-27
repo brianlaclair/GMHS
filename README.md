@@ -31,7 +31,7 @@ If a lower score in your game is better, set it to false.
 
 Once the scores are recieved, we can call the gmhsParseScores() function in the **Async - HTTP** event like this: 
 
-    if (async_load[? "id"] == requests) {
+    if (async_load[? "id"] == RequestScores) {
     	// Parses the HS list recieved
     	gmhsParseScores(async_load[? "result"]);
     }
