@@ -3,7 +3,7 @@ an simple to setup and easy to use online High Score system for GameMaker
 
 ## Whats needed?
 - a web server that can run PHP scripts
-- GameMaker Studio 2
+- GameMaker Studio 2 (Easy to port to other engines - fork it and make a PR if you make something cool!) 
 
 ## Setup
 **Server**
