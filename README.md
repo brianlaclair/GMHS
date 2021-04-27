@@ -1,7 +1,7 @@
 # GMHS
 an simple to setup and easy to use online High Score system for GameMaker
 
-###Whats needed?
+##Whats needed?
 - a web server that can run PHP scripts
 - GameMaker Studio 2
 
